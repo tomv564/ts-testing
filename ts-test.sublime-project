@@ -1,0 +1,30 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["dist", "node_modules"]
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Jasmine ES6",
+			"shell_cmd": "npm test",
+    		"working_dir": "${project_path}",
+    		"file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
+    		"selector": "source.js",
+    		"target": "ansi_color_build",
+    		"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+		},
+		{
+			"name": "Jasmine TS",
+			"shell_cmd": "npm run tstest",
+    		"working_dir": "${project_path}",
+    		"file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
+    		"selector": "source.ts",
+    		"target": "ansi_color_build",
+    		"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+		}
+	]
+}

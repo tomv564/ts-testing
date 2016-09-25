@@ -1,0 +1,2086 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"toLowerCase\tmethod"
+			],
+			[
+				"even",
+				"eventsListener"
+			],
+			[
+				"Timing",
+				"TimingEventListener"
+			],
+			[
+				"Result",
+				"ResultsService"
+			],
+			[
+				"Queue",
+				"QueueBuilder"
+			],
+			[
+				"timing",
+				"timingEventQueue"
+			],
+			[
+				"Regi",
+				"RegistrationServiceImpl"
+			],
+			[
+				"regi",
+				"registrationClient"
+			],
+			[
+				"new",
+				"newChipNumber"
+			],
+			[
+				"Reg",
+				"Registration"
+			],
+			[
+				"re",
+				"registrations"
+			],
+			[
+				"toS",
+				"toString\t(): java.lang.String"
+			],
+			[
+				"CHI",
+				"CHIP_FINISH\t: scala.Int"
+			],
+			[
+				"c",
+				"CHIP_START\t: scala.Int"
+			],
+			[
+				"ref",
+				"reflect\t: scala.reflect$"
+			],
+			[
+				"sta",
+				"statusCode\t: scala.Int"
+			],
+			[
+				"Long",
+				"Long\t: scala.Long"
+			],
+			[
+				"writeV",
+				"writeValueAsString\t(scala.Any): java.lang.String"
+			],
+			[
+				"a",
+				"accept\t: scala.collection.Seq"
+			],
+			[
+				"h",
+				"headers\t(): org.jboss.netty.handler.codec.http.HttpHeaders"
+			],
+			[
+				"withOu",
+				"withOutputStream\t(scala.Function1[java.io.OutputStream, com.twitter.finagle.http.T]): com.twitter.finagle.http.T"
+			],
+			[
+				"with",
+				"withReader\t(scala.Function1[java.io.Reader, com.twitter.finagle.http.T]): com.twitter.finagle.http.T"
+			],
+			[
+				"r",
+				"reader\t: com.twitter.io.Reader"
+			],
+			[
+				"st",
+				"status\t: com.twitter.finagle.http.Status"
+			],
+			[
+				"on",
+				"onSuccess\t(scala.Function1[com.twitter.finagle.http.Response, scala.Unit]): com.twitter.util.Future[com.twitter.finagle.http.Response]"
+			],
+			[
+				"ge",
+				"Get\t: com.twitter.finagle.http.Method$$Get$"
+			],
+			[
+				"Be",
+				"BeforeAndAfterEach\t: <none>"
+			],
+			[
+				"Regist",
+				"RegistrationServic\t: <empty>.RegistrationServic"
+			],
+			[
+				"lan",
+				"language\t: scala.language"
+			],
+			[
+				"cat",
+				"category\t: java.lang.String"
+			],
+			[
+				"read",
+				"readValue\t(java.io.Reader, java.lang.Class[com.fasterxml.jackson.databind.T]): com.fasterxml.jackson.databind.T"
+			],
+			[
+				"wi",
+				"withReader\t(scala.Function1[java.io.Reader, com.twitter.finagle.http.T]): com.twitter.finagle.http.T"
+			],
+			[
+				"readValue",
+				"readValue\t(java.lang.String, java.lang.Class[com.fasterxml.jackson.databind.T]): com.fasterxml.jackson.databind.T"
+			],
+			[
+				"byPa",
+				"byMethodAndPathObject\t(scala.PartialFunction[scala.Tuple2[com.twitter.finagle.http.Method, com.twitter.finagle.http.path.Path], com.twitter.finagle.Service[com.twitter.finagle.http.service.REQUEST, com.twitter.finagle.http.Response]]): com.twitter.finagle.http.service.RoutingService[com.twitter.finagle.http.service.RoutingService$<refinement>]"
+			],
+			[
+				"set",
+				"setContentString\t(java.lang.String): scala.Unit"
+			],
+			[
+				"setCon",
+				"setContentTypeJson\t(): scala.Unit"
+			],
+			[
+				"UTF",
+				"UTF_8\t: java.nio.charset.Charset"
+			],
+			[
+				"Respon",
+				"Response\t: com.twitter.finagle.http.Response"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"Http",
+				"HttpRequest"
+			],
+			[
+				"Material-Theme-Darker",
+				"Material-Theme-Darker-OceanicNext"
+			],
+			[
+				"run_",
+				"run_git_status\tfunction"
+			],
+			[
+				"l",
+				"legalNeighbors\t: List"
+			],
+			[
+				"apply",
+				"applyOrElse\t(A1, Function1[A1, B1]): B1"
+			],
+			[
+				"level",
+				"levelVector\t: Vector[Vector[Char]]"
+			],
+			[
+				"for",
+				"foreach\t(Function1[List, U]): Unit"
+			],
+			[
+				"dict",
+				"dictionaryByOccurrences\t: Map[List, List[String]]"
+			],
+			[
+				"dicino",
+				"dictionaryByOccurrences\t: Map[List, List[String]]"
+			],
+			[
+				"senten",
+				"Sentence\t: List"
+			],
+			[
+				"print",
+				"println\t(Any): Unit"
+			],
+			[
+				"sente",
+				"sentenceCombs\t: List[List]"
+			],
+			[
+				"sent",
+				"sentenceOccurrences\t(List): List"
+			],
+			[
+				"fol",
+				"foldLeft\t(B)(Function2[B, Tuple2[Char, Int], B]): B"
+			],
+			[
+				"take",
+				"takeWhile\t(Function1[Tuple2[Char, Int], Boolean]): List[Tuple2[Char, Int]]"
+			],
+			[
+				"occ",
+				"occurrences\t: List"
+			],
+			[
+				"word",
+				"wordOccurrences\t(String): List"
+			],
+			[
+				"dic",
+				"dictionaryByOccurrences\t: Map[List, List[String]]"
+			],
+			[
+				"group",
+				"groupBy\t(Function1[Char, K]): Map[K, List[Char]]"
+			],
+			[
+				"renderLi",
+				"renderLineNumber"
+			],
+			[
+				"mut",
+				"muteFsEvents"
+			],
+			[
+				"mu",
+				"muteFsEvents"
+			],
+			[
+				"un",
+				"unMuteFsEvents"
+			],
+			[
+				"get",
+				"getLog (fn)"
+			],
+			[
+				"glob",
+				"globalRefresh (fn)"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"copare",
+				"compareDateAsc"
+			],
+			[
+				"rece",
+				"receiveStashes"
+			],
+			[
+				"recei",
+				"receiveCommits"
+			],
+			[
+				"commi",
+				"commitCreated"
+			],
+			[
+				"remote",
+				"remotePushed"
+			],
+			[
+				"gets",
+				"getStatus (fn)"
+			],
+			[
+				"REMO",
+				"remoteFetched"
+			],
+			[
+				"STA",
+				"STASH_POPPED (str)"
+			],
+			[
+				"repo",
+				"repository (?)"
+			],
+			[
+				"clear",
+				"clearTimeout (fn)"
+			],
+			[
+				"refresh",
+				"refreshTrigger (num)"
+			],
+			[
+				"has",
+				"hasStagedFiles (fn)"
+			],
+			[
+				"rende",
+				"renderChildTree (fn)"
+			],
+			[
+				"toLocal",
+				"toLocaleTimeString (fn)"
+			],
+			[
+				"Web",
+				"WebpackNotifierPlugin (fn)"
+			],
+			[
+				"refre",
+				"refreshTriggered (bool)"
+			],
+			[
+				"start",
+				"startWatcher (?)"
+			],
+			[
+				"render",
+				"renderStashPanel (fn)"
+			],
+			[
+				"dir",
+				"dirNode (obj)"
+			],
+			[
+				"rend",
+				"renderFilePath (fn)"
+			],
+			[
+				"p",
+				"propTypes"
+			],
+			[
+				"path",
+				"pathStaged"
+			],
+			[
+				"RECEIVE_",
+				"RECEIVE_STASHES"
+			],
+			[
+				"RE",
+				"RECEIVE_STATUS"
+			],
+			[
+				"Stash",
+				"StashPanel"
+			],
+			[
+				"strin",
+				"string2Chars"
+			],
+			[
+				"make",
+				"makeOrderedLeafList"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"times",
+				"timesWithAccumulator"
+			],
+			[
+				"Sta",
+				"StackIDEManager\tclass"
+			],
+			[
+				"ass",
+				"assertEqual\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "hello.ts",
+			"settings":
+			{
+				"buffer_size": 1437,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plain.js",
+			"settings":
+			{
+				"buffer_size": 57,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "jsconfig.json",
+			"settings":
+			{
+				"buffer_size": 105,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "utils.ts",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tsconfig.json",
+			"settings":
+			{
+				"buffer_size": 171,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "{"
+			}
+		},
+		{
+			"file": "Notes.md",
+			"settings":
+			{
+				"buffer_size": 1466,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "Notes.md"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"syn",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript (TS)"
+			],
+			[
+				"build",
+				"Build With: TypeScript"
+			],
+			[
+				"type er",
+				"TypeScript: Show Error List"
+			],
+			[
+				"show e",
+				"TypeScript: Show Error List"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"git pu",
+				"git: push"
+			],
+			[
+				"gico",
+				"git: commit"
+			],
+			[
+				"add",
+				"git: add (edit)"
+			],
+			[
+				"help",
+				"GitSavvy: help"
+			],
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"qui",
+				"git: quick stage"
+			],
+			[
+				"lo",
+				"git: log"
+			],
+			[
+				"br",
+				"git: branch"
+			],
+			[
+				"git",
+				"git: fetch"
+			],
+			[
+				"git st",
+				"git: status"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"unst",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"open",
+				"Git: Open Modified Files"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Graph All"
+			],
+			[
+				"git dif",
+				"Git: Open Modified Files"
+			],
+			[
+				"g",
+				"Git: Add..."
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sbt",
+				"SBT: Start Continuous Compiling"
+			],
+			[
+				"com",
+				"SBT: Start Continuous Compiling"
+			],
+			[
+				"sb",
+				"SBT: Start Continuous Compiling"
+			],
+			[
+				"sbt sto",
+				"SBT: Start Continuous Compiling"
+			],
+			[
+				"re",
+				"SBT: Reload"
+			],
+			[
+				"nex",
+				"SBT: Show Next Error"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"enablepa",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"en",
+				"Ensime: Startup"
+			],
+			[
+				"sca",
+				"Set Syntax: Scala"
+			],
+			[
+				"sc",
+				"Set Syntax: Scala"
+			],
+			[
+				"startup",
+				"Ensime: Startup"
+			],
+			[
+				"Sca",
+				"Set Syntax: Scala"
+			],
+			[
+				"ensim",
+				"Ensime: Startup"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"ensime",
+				"Ensime: Startup"
+			],
+			[
+				"ensime sh",
+				"Ensime: Shutdown"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ens",
+				"Ensime: Restart"
+			],
+			[
+				"pack en",
+				"Package Control: Enable Package"
+			],
+			[
+				"syn sc",
+				"Set Syntax: Scala"
+			],
+			[
+				"pc ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"inst pa",
+				"Package Control: Install Package"
+			],
+			[
+				"settings u",
+				"Preferences: Settings - User"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"PACK",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"sub",
+				"SublimeReview: Diff"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"inst pac",
+				"Package Control: Install Package"
+			],
+			[
+				"comp",
+				"Sublimerge: Compare to Revision..."
+			],
+			[
+				"r",
+				"SublimeReview"
+			],
+			[
+				"rei",
+				"SublimeReview"
+			],
+			[
+				"reiv",
+				"SublimeReview"
+			],
+			[
+				"rev",
+				"SublimeReview"
+			],
+			[
+				"review",
+				"SublimeReview"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"revi",
+				"SublimeReview"
+			],
+			[
+				"convs",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"Reiv",
+				"SublimeReview"
+			],
+			[
+				"Subl",
+				"SublimeReview"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"sta",
+				"Ensime: Startup"
+			],
+			[
+				"ensi",
+				"Ensime: Startup"
+			],
+			[
+				"Ensime",
+				"Ensime: Startup"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"file ren",
+				"File: Rename"
+			],
+			[
+				"mark",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"inst pack",
+				"Package Control: Install Package"
+			],
+			[
+				"fil del",
+				"File: Delete"
+			],
+			[
+				"file de",
+				"File: Delete"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"rmo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ind spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa di",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"subl re",
+				"SublimeStackIDE: Restart"
+			],
+			[
+				"sublime",
+				"SublimeStackIDE: Restart"
+			],
+			[
+				"ed",
+				"Edit Preferences: Edit Settings — Preferences"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"edit pre",
+				"Edit Preferences: Edit Settings — Preferences"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"ed pr",
+				"Edit Preferences: Edit Settings — Preferences"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"syn bas",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 229.0,
+		"history":
+		[
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '')",
+			"regions = [sublime.Region(0,200)]",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '')",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"regions = [sublime.Region(0,41)]",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '')",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"regions = [sublime.Region(0,40)]",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '')",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '', sublime.DRAW_OUTLINED)",
+			"regions = [sublime.Region(10,30)]",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '', sublime.DRAW_OUTLINED)",
+			"regions = [sublime.Region(10,30)]",
+			"sublime.active_window().active_view().add_regions('added', regions, 'diff.added', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().erase_regions('added')",
+			"sublime.active_window().active_view().add_regions('added', regions, 'invalid', '', sublime.DRAW_OUTLINED)",
+			"len(regions)",
+			"regions = [region]",
+			"region",
+			"region = sublime.Region(10, 14)",
+			"list(region)",
+			"region",
+			"sublime.active_window().active_view().add_regions('added', list(region), 'invalid', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().add_regions('added', (region), 'invalid', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().add_regions('added', region, 'invalid', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().add_regions('added', (region), 'invalid', '', sublime.DRAW_OUTLINED)",
+			"sublime.active_window().active_view().add_regions('added', (region), 'invalid', None, sublime.DRAW_OUTLINED)",
+			"region",
+			"region = sublime.Region(10, 30)",
+			"region = Region(10, 50)",
+			"sublime.active_window().active_view()",
+			"sublime.active_window().focus_group(0)",
+			"sublime.active_window().focus_group(1)",
+			"sublime.active_window()",
+			"clear()",
+			"clr()",
+			"clr",
+			"clear",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tomv/Projects/tomv564/ts-test"
+	],
+	"file_history":
+	[
+		"/Users/tomv/Projects/tomv564/ts-test/plain.js",
+		"/Users/tomv/Projects/tomv564/ts-test/utils.ts",
+		"/Users/tomv/Projects/tomv564/ts-test/utils.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/.gitignore",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/test.txt",
+		"/Users/tomv/Projects/tomv564/edbee-examples/example2/example2.cpp",
+		"/Users/tomv/Projects/tomv564/ts-test/hello.ts",
+		"/Users/tomv/Projects/tomv564/finagle-test/results/src/main/scala/ResultsServiceImpl.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/registration/src/main/scala/Server.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/project/plugins.sbt",
+		"/Users/tomv/Projects/tomv564/finagle-test/results/build.sbt",
+		"/Users/tomv/Projects/tomv564/finagle-test/results/target/scala-2.11/src_managed/main/io/tomv/timing/results/thrift/Result.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/project/plugins.sbt",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/MemcacheHandler.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/ThriftHandler.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/thrift/kestrel.thrift",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/ServerStatus.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/ZooKeeperServerStatus.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/project/Build.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/codec/MemcacheCodec.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/codec/HttpRequest.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/Codec.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/TextHandler.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/test/scala/net/lag/kestrel/TextHandlerSpec.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/test/TestCodec.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/LatchedChannelSource.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/test/scala/net/lag/kestrel/MemcacheHandlerSpec.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/Stage.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/naggati/Stages.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/Kestrel.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/src/main/scala/net/lag/kestrel/Journal.scala",
+		"/Users/tomv/Projects/tomv564/kestrel/project/build.properties",
+		"/Users/tomv/Projects/tomv564/finagle-test/src/main/scala/GatewayService.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/registration/src/main/scala/RegistrationServiceImpl.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/registration/build.sbt",
+		"/Users/tomv/Projects/tomv564/finagle-test/build.sbt",
+		"/Users/tomv/Projects/tomv564/finagle-test/registration/src/main/thrift/registrations.thrift",
+		"/Users/tomv/Projects/tomv564/finagle-test/Notes.MD",
+		"/Users/tomv/Projects/tomv564/finagle-test/registration/target/scala-2.11/src_managed/main/io/tomv/timing/registration/thrift/RegistrationService$FinagleService.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/src/main/scala/Server.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/src/registrations/target/scala-2.11/src_managed/main/thrift/RegistrationService.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/src/registrations/thrift/registrations.thrift",
+		"/Users/tomv/Projects/tomv564/finagle-test/src/registrations/scala/Server.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/src/main/scala/RegistrationServer.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/.ensime_cache/dep-src/source-jars/org/scalatest/FunSuite.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/Server.scala",
+		"/Users/tomv/Projects/tomv564/finagle-test/target/streams/compile/copyResources/$global/streams/copy-resources",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/SublimeReview/plugin.py",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/SublimeReview/Main.sublime-menu",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/SublimeReview/Default.sublime-commands",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tomv/Projects/tomv564/progfun/forcomp/src/main/resources/forcomp/linuxwords.txt",
+		"/Users/tomv/Projects/tomv564/progfun/patmat/src/test/scala/patmat/HuffmanSuite.scala",
+		"/Users/tomv/Projects/tomv564/progfun/patmat/src/main/scala/patmat/Huffman.scala",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/Notes.MD",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/webpack.config.production.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/commits.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/workingTree.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Stash.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Index.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Home.module.css",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Home.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/History.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/api/GitApi.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/index.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/diffs.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/containers/HomePage.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/app.css",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Panel.module.css",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/DiffView.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/actions/index.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/webpack.config.base.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/TODO.MD",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/README.md",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/package.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/package.json",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/webpack.config.development.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/dist/style.css",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/index.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/app.html",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/test/containers/CounterPage.spc.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/test/reducers/commits.spec.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/test/reducers/counter.spec.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Commit.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/stashes.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/TODO.txt",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/api/FsApi.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/changes.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/Panel.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/components/TitleBar.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/containers/DevTools.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/containers/App.development.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/main.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/containers/App.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/routes.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/server.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/stash.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/store/configureStore.production.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/containers/CounterPage.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/app/reducers/counter.js",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/.eslintrc",
+		"/Users/tomv/Library/Application Support/Sublime Text 3/Packages/User/JavaScript (Babel).sublime-settings",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/.tern-project",
+		"/Users/tomv/Projects/tomv564/electron-git-buddy/electron-git-buddy.sublime-project",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/package.json",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/components/Home.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/containers/HomePage.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/node_modules/redux/lib/utils/combineReducers.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/reducers/index.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/reducers/changes.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/app.css",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/components/Index.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/components/Stash.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/components/Home.module.css",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/actions/index.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/reducers/stash.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/store/configureStore.development.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/index.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/webpack.config.base.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/node_modules/nodegit/lib/nodegit.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/node_modules/react-redux/lib/components/connect.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/app/containers/StashPanel.js",
+		"/Users/tomv/Projects/tomv564/electron-react-boilerplate/README.md",
+		"/Volumes/Elements/Backup to Sort/Oct 2015 MBP backup/Library2/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Volumes/Elements/Backup to Sort/Oct 2015 MBP backup/Library2/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 64.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"outDir",
+			" = {}",
+			"null",
+			"right",
+			"editor",
+			"containeri",
+			"9090",
+			"createQueue",
+			"Server",
+			"server",
+			"regServer",
+			"Queue",
+			"queue",
+			"    regServer = Thrift.serveIface(\":6000\", new RegistrationServiceImpl())\n",
+			"Thrift",
+			"serveIface",
+			"decode",
+			"created",
+			"write",
+			"timingEventQueue",
+			"result",
+			"Protocol",
+			"ThriftStructCodec3",
+			"org.mockit",
+			"org.scalatest",
+			"case e",
+			"thriftscala",
+			"thrift.",
+			"thriftscala",
+			"thri",
+			"thrift.Item",
+			"Hashed",
+			"finagle.redi",
+			"fingale.redi",
+			"twitter",
+			"com.twitter.finagle.redis.naggati",
+			"com.twitter.finagle.redis.naggati.Codec",
+			"com.twitter.finagle.redis.naggati",
+			"com.twitter.naggati",
+			"Registration",
+			"registrations",
+			"RegistrationService",
+			"main",
+			"NameRecognizerException",
+			"config",
+			"created",
+			"results",
+			"registrations",
+			"testUser",
+			"mapper",
+			"response",
+			"req",
+			"HttpResponse",
+			"RegistrationService",
+			"||",
+			"finagle",
+			"Root",
+			"http.",
+			"http",
+			"quoted",
+			"doc",
+			"self",
+			"file",
+			"lines",
+			"status",
+			"content",
+			"check_urls",
+			"Level2",
+			"sentenceAnagrams0",
+			"occurances",
+			"combs",
+			"combinations",
+			"dictionary",
+			"_",
+			"y",
+			"update",
+			"occ",
+			"codeBits",
+			"char",
+			"tree",
+			"chars",
+			"counts",
+			"False",
+			"makeC",
+			"index",
+			"var",
+			"'",
+			"func",
+			"TitleBar",
+			"let",
+			"diff",
+			"commits",
+			"workingTree",
+			"receiveDiff",
+			"RECEIVE_DIFF",
+			"childItems",
+			"commits",
+			"path",
+			"WORKINGDIR_CHANGED",
+			"REMOTE_PUSHED",
+			"commitCre",
+			"slic",
+			"path",
+			"UNPLANNED",
+			"commitCreated",
+			"pathStaged",
+			"localOnly",
+			"span",
+			"[",
+			"result",
+			"commitLocal",
+			".id",
+			"id",
+			"let",
+			"commit",
+			"counter",
+			"updated",
+			"existing",
+			"RECEIVE_COMMITS",
+			"commit",
+			"\"",
+			"head",
+			"unstagePah",
+			"disp",
+			"done(",
+			"dispatch(",
+			"refreshIndex",
+			"REFRESH_INDEX"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"com.twitter.naggati",
+			"Registration",
+			"Theme - Oceanic Afterglow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "hello.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"git_savvy.file_path": "/Users/tomv/Projects/tomv564/ts-test/hello.ts",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "plain.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"git_savvy.file_path": "/Users/tomv/Projects/tomv564/ts-test/plain.js",
+							"syntax": "Packages/User/Javascript TS.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "jsconfig.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"git_savvy.file_path": "/Users/tomv/Projects/tomv564/ts-test/jsconfig.json",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "utils.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"git_savvy.file_path": "/Users/tomv/Projects/tomv564/ts-test/utils.ts",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tsconfig.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"git_savvy.file_path": "/Users/tomv/Projects/tomv564/ts-test/tsconfig.json",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1466
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Notes.md",
+							"git_savvy.file_path": "/Users/tomv/Projects/tomv564/ts-test/Notes.md",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 603.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 86.0
+	},
+	"output.exec":
+	{
+		"height": 295.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 243.0
+	},
+	"output.hide_errors":
+	{
+		"height": 98.0
+	},
+	"output.preferences_editor_help":
+	{
+		"height": 100.0
+	},
+	"output.sbt":
+	{
+		"height": 190.0
+	},
+	"output.sbt_error":
+	{
+		"height": 247.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 86.0
+	},
+	"pinned_build_system": "",
+	"project": "ts-test.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"hello.ts"
+			],
+			[
+				"gitpu",
+				"_posts/2014-03-28-git-push-deployment-on-iis.markdown"
+			],
+			[
+				"exampl",
+				"example2.cpp"
+			],
+			[
+				"build",
+				"project/Build.scala"
+			],
+			[
+				"no",
+				"Notes.MD"
+			],
+			[
+				"ga",
+				"src/it/scala/GatewaySpec.scala"
+			],
+			[
+				"gatewaysp",
+				"src/test/scala/GatewaySpec.scala"
+			],
+			[
+				"resultsservice",
+				"results/src/main/scala/ResultsServiceImpl.scala"
+			],
+			[
+				"results/server",
+				"results/src/main/scala/Server.scala"
+			],
+			[
+				"gat",
+				"src/main/scala/GatewayService.scala"
+			],
+			[
+				"ser",
+				"src/main/scala/Server.scala"
+			],
+			[
+				"server",
+				"src/main/scala/Server.scala"
+			],
+			[
+				"results/bu",
+				"results/build.sbt"
+			],
+			[
+				"queesp",
+				"src/test/scala/QueueSpec.scala"
+			],
+			[
+				"local",
+				"common/src/main/scala/LocalQueue.scala"
+			],
+			[
+				"queue",
+				"src/test/scala/QueueSpec.scala"
+			],
+			[
+				"gatew",
+				"src/test/scala/GatewaySpec.scala"
+			],
+			[
+				"queuesp",
+				"src/test/scala/QueueSpec.scala"
+			],
+			[
+				"resulserver",
+				"results/src/main/scala/Server.scala"
+			],
+			[
+				"registrationserver",
+				"registration/src/main/scala/Server.scala"
+			],
+			[
+				"queues",
+				"src/test/scala/QueueSpec.scala"
+			],
+			[
+				"timing",
+				"results/target/scala-2.11/src_managed/main/io/tomv/timing/result/thrift/TimingEvent.scala"
+			],
+			[
+				"spec",
+				"src/test/scala/GatewaySpec.scala"
+			],
+			[
+				"result.sc",
+				"results/target/scala-2.11/src_managed/main/io/tomv/timing/results/thrift/Result.scala"
+			],
+			[
+				"registration.sca",
+				"registration/target/scala-2.11/src_managed/main/io/tomv/timing/registration/thrift/Registration.scala"
+			],
+			[
+				"servers",
+				"src/test/scala/net/lag/kestrel/ServerSpec.scala"
+			],
+			[
+				"itemi",
+				"src/test/scala/net/lag/kestrel/ItemIdListSpec.scala"
+			],
+			[
+				"memcachedha",
+				"src/test/scala/net/lag/kestrel/MemcacheHandlerSpec.scala"
+			],
+			[
+				"kestre",
+				"src/test/scala/net/lag/kestrel/KestrelHandlerSpec.scala"
+			],
+			[
+				"journa",
+				"src/test/scala/net/lag/kestrel/JournalSpec.scala"
+			],
+			[
+				"dead",
+				"src/test/scala/net/lag/kestrel/DeadlineWaitQueueSpec.scala"
+			],
+			[
+				"as",
+				"src/test/scala/net/lag/kestrel/AliasedQueueSpec.scala"
+			],
+			[
+				"kes",
+				"src/main/scala/net/lag/kestrel/Kestrel.scala"
+			],
+			[
+				"zoo",
+				"src/main/scala/net/lag/kestrel/ZooKeeperServerStatus.scala"
+			],
+			[
+				"la",
+				"src/main/scala/net/lag/kestrel/naggati/LatchedChannelSource.scala"
+			],
+			[
+				"zook",
+				"src/main/scala/net/lag/kestrel/ZooKeeperServerStatus.scala"
+			],
+			[
+				"thr",
+				"src/main/scala/net/lag/kestrel/ThriftHandler.scala"
+			],
+			[
+				"kestrel.s",
+				"src/main/scala/net/lag/kestrel/Kestrel.scala"
+			],
+			[
+				"mem",
+				"src/main/scala/net/lag/kestrel/MemcacheHandler.scala"
+			],
+			[
+				"ke",
+				"src/main/scala/net/lag/kestrel/Kestrel.scala"
+			],
+			[
+				"notes",
+				"Notes.MD"
+			],
+			[
+				"bui",
+				"registration/build.sbt"
+			],
+			[
+				"not",
+				"Notes.MD"
+			],
+			[
+				"gateways",
+				"src/main/scala/GatewayService.scala"
+			],
+			[
+				"regi",
+				"registration/src/main/thrift/registrations.thrift"
+			],
+			[
+				"regsitrations",
+				"registration/src/main/scala/RegistrationServiceImpl.scala"
+			],
+			[
+				"regis",
+				"registration/src/main/thrift/registrations.thrift"
+			],
+			[
+				"gateway",
+				"src/main/scala/GatewayService.scala"
+			],
+			[
+				"registrationservice",
+				"registration/target/scala-2.11/src_managed/main/io/tomv/timing/registration/thrift/RegistrationService$FinagleService.scala"
+			],
+			[
+				"build.",
+				"build.sbt"
+			],
+			[
+				"reg",
+				"src/registration/scala/RegistrationServiceImpl.scala"
+			],
+			[
+				"serv",
+				"src/registrations/scala/Server.scala"
+			],
+			[
+				"build.s",
+				"build.sbt"
+			],
+			[
+				"registra",
+				"src/registrations/target/scala-2.11/src_managed/main/thrift/RegistrationService.scala"
+			],
+			[
+				"registraionser",
+				"src/registrations/target/scala-2.11/src_managed/main/thrift/RegistrationService.scala"
+			],
+			[
+				"va",
+				"Vagrantfile"
+			],
+			[
+				"sser",
+				"target/streams/compile/copyResources/$global/streams/copy-resources"
+			],
+			[
+				"solv",
+				"src/main/scala/streams/Solver.scala"
+			],
+			[
+				"bl",
+				"src/test/scala/streams/BloxorzSuite.scala"
+			],
+			[
+				"strinp",
+				"src/main/scala/streams/StringParserTerrain.scala"
+			],
+			[
+				"gamed",
+				"src/main/scala/streams/GameDef.scala"
+			],
+			[
+				"linux",
+				"src/main/resources/forcomp/linuxwords.txt"
+			],
+			[
+				"ana",
+				"src/test/scala/forcomp/AnagramsSuite.scala"
+			],
+			[
+				"m",
+				"src/main/scala/forcomp/Anagrams.scala"
+			],
+			[
+				"webp",
+				"webpack.config.development.js"
+			],
+			[
+				"webpa",
+				"webpack.config.base.js"
+			],
+			[
+				"style",
+				"dist/style.css"
+			],
+			[
+				"web",
+				"webpack.config.production.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"packag",
+				"package.js"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"to",
+				"TODO.MD"
+			],
+			[
+				"in",
+				"app/components/Index.js"
+			],
+			[
+				"home",
+				"app/components/Home.module.css"
+			],
+			[
+				"p",
+				"app/components/Panel.module.css"
+			],
+			[
+				"view",
+				"app/components/DiffView.js"
+			],
+			[
+				"ind",
+				"app/components/Index.js"
+			],
+			[
+				"diff",
+				"app/components/DiffView.js"
+			],
+			[
+				"inde",
+				"app/components/Index.js"
+			],
+			[
+				"todo",
+				"TODO.MD"
+			],
+			[
+				"gita",
+				"app/api/GitApi.js"
+			],
+			[
+				"ap",
+				"app/app.css"
+			],
+			[
+				"diffv",
+				"app/components/DiffView.js"
+			],
+			[
+				"home.",
+				"app/components/Home.module.css"
+			],
+			[
+				"hi",
+				"app/components/History.js"
+			],
+			[
+				"appc",
+				"app/app.css"
+			],
+			[
+				"homepa",
+				"app/containers/HomePage.js"
+			],
+			[
+				"hom",
+				"app/components/Home.js"
+			],
+			[
+				"com",
+				"app/reducers/commits.js"
+			],
+			[
+				"redu",
+				"app/reducers/index.js"
+			],
+			[
+				"work",
+				"app/reducers/workingTree.js"
+			],
+			[
+				"giap",
+				"app/api/GitApi.js"
+			],
+			[
+				"gitapi",
+				"app/api/GitApi.js"
+			],
+			[
+				"stash",
+				"app/components/Stash.js"
+			],
+			[
+				"panel",
+				"app/components/Panel.module.css"
+			],
+			[
+				"action/in",
+				"app/actions/index.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"pan",
+				"app/components/Panel.module.css"
+			],
+			[
+				"actionsin",
+				"app/actions/index.js"
+			],
+			[
+				"hoe",
+				"app/components/Home.js"
+			],
+			[
+				"comm",
+				"app/reducers/commits.js"
+			],
+			[
+				"commsp",
+				"test/reducers/commits.spec.js"
+			],
+			[
+				"his",
+				"app/components/History.js"
+			],
+			[
+				"commi",
+				"app/reducers/commits.js"
+			],
+			[
+				"hist",
+				"app/components/History.js"
+			],
+			[
+				"homecs",
+				"app/components/Home.module.css"
+			],
+			[
+				"index",
+				"app/actions/index.js"
+			],
+			[
+				"gitap",
+				"app/api/GitApi.js"
+			],
+			[
+				"homep",
+				"app/containers/HomePage.js"
+			],
+			[
+				"reduind",
+				"app/reducers/index.js"
+			],
+			[
+				"red",
+				"app/reducers/changes.js"
+			],
+			[
+				"fsa",
+				"app/api/FsApi.js"
+			],
+			[
+				"actions",
+				"app/actions/index.js"
+			],
+			[
+				"workin",
+				"app/reducers/workingTree.js"
+			],
+			[
+				"actionind",
+				"app/actions/index.js"
+			],
+			[
+				"re",
+				"app/reducers/stashes.js"
+			],
+			[
+				"redust",
+				"app/reducers/stashes.js"
+			],
+			[
+				"homecss",
+				"app/components/Home.module.css"
+			],
+			[
+				"pane",
+				"app/components/Panel.module.css"
+			],
+			[
+				"title",
+				"app/components/TitleBar.js"
+			],
+			[
+				"panel.mo",
+				"app/components/Panel.module.css"
+			],
+			[
+				"home.mo",
+				"app/components/Home.module.css"
+			],
+			[
+				"h",
+				"app/components/Home.js"
+			],
+			[
+				"titl",
+				"app/components/TitleBar.js"
+			],
+			[
+				"st",
+				"app/components/Stash.js"
+			],
+			[
+				"acind",
+				"app/actions/index.js"
+			],
+			[
+				"sta",
+				"app/components/Stash.js"
+			],
+			[
+				"reducha",
+				"app/reducers/changes.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

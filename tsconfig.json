@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+    	"target": "es5",
+        "module": "commonjs",
+        "strictNullChecks": true,
+        "allowJs": true,
+        "outDir": "dist/",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "jsx": "react",
+        "preserveConstEnums": true
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/index.tsx"
+    ]
+}
