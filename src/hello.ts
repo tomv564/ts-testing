@@ -6,7 +6,7 @@ export {yo} from "./utils";
 
 export function greet(msg: string) {
 	console.log(msg.toUpperCase());
-	if (isOn("off")) {
+	if (isOn("on")) {
 		console.log("nevermind" + yo());
 		let brothers = momma(2);
 	}
