@@ -10,7 +10,7 @@
 	[
 		{
 			"name": "Jasmine ES6",
-			"shell_cmd": "npm test",
+			"shell_cmd": "npm test -- $file",
     		"working_dir": "${project_path}",
     		"file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
     		"selector": "source.js",
@@ -19,7 +19,7 @@
 		},
 		{
 			"name": "Jasmine TS",
-			"shell_cmd": "npm run tstest",
+			"shell_cmd": "npm run tstest -- $file",
     		"working_dir": "${project_path}",
     		"file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
     		"selector": "source.ts",
