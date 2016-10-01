@@ -1,9 +1,9 @@
-import {getFruit} from "./evilimport"
+import { getFruit } from "./evilimport";
 
-export function momma (brother) {
+export function momma(brother) {
   return brother * 2;
 }
 
-export function fruit () {
-	return getFruit();
+export function fruit() {
+  return getFruit();
 }

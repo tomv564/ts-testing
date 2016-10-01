@@ -1,20 +1,22 @@
-import Jasmine from 'jasmine'
+/* eslint-disable no-console, import/no-extraneous-dependencies */
+import Jasmine from "jasmine";
+import SpecReporter from "jasmine-spec-reporter";
 
-var runner = new Jasmine()
-runner.loadConfigFile('spec/support/jasmine.json')
+const runner = new Jasmine();
+runner.loadConfigFile("spec/support/jasmine.json");
 
 runner.env.clearReporters();
-var SpecReporter = require('jasmine-spec-reporter');
 runner.addReporter(new SpecReporter());
 
-var regex = /.spec.js$/
+const regex = /.spec.js$/;
+const specArgument = process.argv.length > 2 && regex.test(process.argv[2]) ?
+                      process.argv[2] :
+                      null;
 
-var spec_arg = process.argv.length > 2 && regex.test(process.argv[2]) ? process.argv[2] : null
-
-if (spec_arg) {
-  var relative_path = spec_arg.replace(process.cwd(), "");
-  console.log("Running spec", relative_path);
-  runner.execute([relative_path]);
+if (specArgument) {
+  const specPath = specArgument.replace(process.cwd(), "");
+  console.log("Running spec", specPath);
+  runner.execute([specPath]);
 } else {
   console.log("Running all JS specs");
   runner.execute();

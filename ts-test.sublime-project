@@ -25,6 +25,16 @@
     		"selector": "source.ts",
     		"target": "ansi_color_build",
     		"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+		},
+		{
+			"name": "Lint",
+			"shell_cmd": "npm run lint",
+    		"working_dir": "${project_path}",
+    		"file_regex": "^(.*\\.js)",
+    		"line_regex": ".+(\\d+):(\\d+)(.*)",
+    		"selector": "source.js",
+    		// "target": "ansi_color_build",
+    		// "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
 		}
 	]
 }

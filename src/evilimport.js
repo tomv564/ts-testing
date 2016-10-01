@@ -1,3 +1,3 @@
-export function getFruit () {
-	return "bananas";
+export function getFruit() {
+  return "bananas";
 }

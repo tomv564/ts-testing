@@ -70,10 +70,14 @@ mouse setup:
 ### TS support
 
 jsconfig
-hijack using Javascript TS.sublime-syntax
+DONT hijack using Javascript TS.sublime-syntax
 View -> Syntax -> Open all with current extension
-
 
 ### Jasmine es6 for babel 6: 
 
 https://gist.github.com/mauvm/172878a9646095d03fd7
+
+Autocomplete shoudl be added to js syntax:
+
+    "auto_complete_triggers": [ {"selector": "source.js", "characters": "."} ]
+
