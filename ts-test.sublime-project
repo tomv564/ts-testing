@@ -12,7 +12,8 @@
 			"name": "Jasmine ES6",
 			"shell_cmd": "npm test -- $file",
     		"working_dir": "${project_path}",
-    		"file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
+    		"file_regex": "Error:\\s(?=.+\\((.+):(\\d+):(\\d+)\\))(.+)\\s\\s\\s\\sat.+",
+    		// "file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
     		"selector": "source.js",
     		"target": "ansi_color_build",
     		"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
@@ -21,7 +22,8 @@
 			"name": "Jasmine TS",
 			"shell_cmd": "npm run tstest -- $file",
     		"working_dir": "${project_path}",
-    		"file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
+    		"file_regex": "Error:\\s(?=.+\\((.+):(\\d+):(\\d+)\\))(.+)\\s\\s\\s\\sat.+",
+    		// "file_regex": "^.+\\((.+):([0-9]+):([0-9]+)\\)$",
     		"selector": "source.ts",
     		"target": "ansi_color_build",
     		"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
@@ -33,8 +35,8 @@
     		"file_regex": "^(.*\\.js)",
     		"line_regex": ".+(\\d+):(\\d+)(.*)",
     		"selector": "source.js",
-    		// "target": "ansi_color_build",
-    		// "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+    		"target": "ansi_color_build",
+    		"syntax": "Packages/ANSIescape/ANSI.tmLanguage"
 		}
 	]
 }

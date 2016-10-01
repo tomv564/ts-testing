@@ -4,9 +4,30 @@ const Jasmine: any = require("jasmine");
 const runner = new Jasmine();
 runner.loadConfigFile("spec/support/jasmineTS.json");
 
-runner.env.clearReporters();
-const SpecReporter = require("jasmine-spec-reporter");
-runner.addReporter(new SpecReporter());
+// runner.env.clearReporters();
+// const SpecReporter = require("jasmine-spec-reporter");
+// runner.addReporter(new SpecReporter());
+
+function parseableStackFilter(stack: string): string {
+  const filteredStackLines = stack.split('\n').filter(function(stackLine) {
+    return stackLine.indexOf(runner.jasmineCorePath) === -1;
+  });
+  if (filteredStackLines.length > 1) {
+    const firstLine = filteredStackLines[0] + ' ' + filteredStackLines[1];
+    if (filteredStackLines.length > 2) {
+      return firstLine + '\n' + filteredStackLines.slice(2).join('\n');
+    } else {
+      return firstLine;
+    }
+  } else {
+    return filteredStackLines.join('\n');
+  }
+}
+
+runner.configureDefaultReporter({
+  showColors: true,
+  stackFilter: parseableStackFilter,
+});
 
 const regex = /.spec.ts$/;
 

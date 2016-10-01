@@ -31,8 +31,8 @@
   },
   "scripts": {
     "test": "babel-node spec/run.js",
-    "tstest": "ts-node spec/run.ts",
-    "lint": "eslint --cache src || true"
+    "tstest": "ts-node spec/run.ts || true",
+    "lint": "eslint --cache --color src || true"
   },
   "author": "Tom van Ommeren",
   "license": "ISC"
