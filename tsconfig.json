@@ -8,7 +8,8 @@
         "noImplicitAny": true,
         "removeComments": true,
         "jsx": "react",
-        "preserveConstEnums": true
+        "preserveConstEnums": true,
+        "experimentalDecorators": true
     },
     "files": [
         "./typings/index.d.ts",

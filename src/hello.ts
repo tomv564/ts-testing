@@ -12,8 +12,6 @@ export function greet(msg: string) {
     }
 }
 
-adsf.hello
-
 export function getGreeting(name: string): string {
     return yo() + " " + name;
 }

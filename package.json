@@ -1,6 +1,6 @@
 {
   "name": "ts-test",
-  "repository" : "github.com/tomv564/ts-testing",
+  "repository": "github.com/tomv564/ts-testing",
   "version": "1.0.0",
   "description": "asdf",
   "main": "index.js",
@@ -8,8 +8,8 @@
     "babel-cli": "^6.14.0",
     "babel-runtime": "^6.11.6",
     "eslint": "^3.7.0",
-    "jasmine-reporters": "^2.2.0",
     "mobx": "^2.5.1",
+    "mobx-react": "^3.5.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "webpack": "^1.13.2"
@@ -23,14 +23,15 @@
     "babel-preset-stage-0": "^6.5.0",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.16.0",
-    "jasmine": "^2.5.2",
-    "jasmine-es6": "^0.3.1",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine": "2.4.1",
     "jasmine-spec-reporter": "^2.7.0",
     "typescript": "^2.0.3",
     "webpack": "^1.13.2"
   },
   "scripts": {
     "test": "babel-node spec/run.js",
+    "test-debug": "babel-node --inspect --debug-brk spec/run.js",
     "tstest": "ts-node spec/run.ts || true",
     "lint": "eslint --cache --color src || true"
   },

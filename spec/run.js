@@ -7,19 +7,17 @@ runner.loadConfigFile("spec/support/jasmine.json");
 // runner.showColors(false);
 
 function parseableStackFilter(stack) {
-  var filteredStackLines = stack.split('\n').filter(function(stackLine) {
-    return stackLine.indexOf(runner.jasmineCorePath) === -1;
-  });
+  const filteredStackLines = stack.split("\n").filter(
+    stackLine => stackLine.indexOf(runner.jasmineCorePath) === -1
+  );
   if (filteredStackLines.length > 1) {
-    var firstLine = filteredStackLines[0] + ' ' + filteredStackLines[1];
+    const firstLine = filteredStackLines[0] + " " + filteredStackLines[1];
     if (filteredStackLines.length > 2) {
-      return firstLine + '\n' + filteredStackLines.slice(2).join('\n');
-    } else {
-      return firstLine;
+      return firstLine + "\n" + filteredStackLines.slice(2).join("\n");
     }
-  } else {
-    return filteredStackLines.join('\n');
+    return firstLine;
   }
+  return filteredStackLines.join("\n");
 }
 
 runner.configureDefaultReporter({

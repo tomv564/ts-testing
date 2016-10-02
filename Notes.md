@@ -82,3 +82,4 @@ Autocomplete shoudl be added to js syntax:
     "auto_complete_triggers": [ {"selector": "source.js", "characters": "."} ]
 
 To access ConsoleReporters stackFilter, need to make sure it doesn't call configureDefaultReporter in execute.
+pin to jasmine (jasmine-npm ) 2.4.1
