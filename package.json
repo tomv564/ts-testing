@@ -35,7 +35,8 @@
     "test-debug": "babel-node --inspect --debug-brk spec/run.js",
     "tstest": "ts-node spec/run.ts || true",
     "lint": "eslint --cache --color src || true",
-    "jest": "jest"
+    "jest": "jest",
+    "jest-debug": "inspect node_modules/jest/bin/jest -i --env jest-environment-node-debug"
   },
   "jest": {
     "moduleFileExtensions": [

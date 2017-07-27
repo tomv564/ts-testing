@@ -91,3 +91,12 @@ paths, windows: `/Users/tvanommeren/Projects/asdf/node_modules/.bin`
 
 Install DocBlockr
 https://packagecontrol.io/packages/DocBlockr
+
+### Jest, inspector etc.
+
+Need:
+inspect-process to automate launching chrome
+jest-environment-node-debug to make sure no special vm is created to run specs in
+see: https://github.com/facebook/jest/issues/1652
+
+There was also some business about TS source maps (try inline per-file)
