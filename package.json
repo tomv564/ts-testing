@@ -12,6 +12,7 @@
     "mobx-react": "^3.5.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "underscore": "^1.8.3",
     "webpack": "^1.13.2"
   },
   "devDependencies": {
@@ -23,9 +24,9 @@
     "babel-preset-stage-0": "^6.5.0",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.16.0",
-    "jasmine-reporters": "^2.2.0",
-    "jasmine": "2.4.1",
-    "jasmine-spec-reporter": "^2.7.0",
+    "jest": "^20.0.4",
+    "jest-environment-node-debug": "^2.0.0",
+    "tslint": "^4.5.1",
     "typescript": "^2.0.3",
     "webpack": "^1.13.2"
   },
@@ -33,7 +34,21 @@
     "test": "babel-node spec/run.js",
     "test-debug": "babel-node --inspect --debug-brk spec/run.js",
     "tstest": "ts-node spec/run.ts || true",
-    "lint": "eslint --cache --color src || true"
+    "lint": "eslint --cache --color src || true",
+    "jest": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx|js)"
+    ]
   },
   "author": "Tom van Ommeren",
   "license": "ISC"

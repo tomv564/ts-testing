@@ -4,6 +4,11 @@ import {isOn} from "./filters";
 
 export {yo} from "./utils";
 
+let pants = "";
+
+greet("hello");
+
+// let translated = pants
 export function greet(msg: string) {
     console.log(msg.toUpperCase());
     if (isOn("on")) {

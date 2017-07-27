@@ -4,15 +4,24 @@
         "module": "commonjs",
         "strictNullChecks": true,
         "allowJs": true,
-        "outDir": "dist/",
+        "outDir": "dist",
         "noImplicitAny": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
         "removeComments": true,
         "jsx": "react",
         "preserveConstEnums": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                    "*",
+                    "tom_modules/*"
+            ]
+        }
     },
-    "files": [
-        "./typings/index.d.ts",
-        "./src/index.tsx"
+    "include": [
+        "src/*",
+        "__tests__/*"
     ]
 }

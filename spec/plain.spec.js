@@ -6,12 +6,11 @@ import { momma, fruit } from "../src/plain";
 // This worked before installing rewire.
 // import * as EvilImport from "../src/evilimport";
 // EvilImport.bananas = function () { console.log("apples!"); }
-
-
 describe("momma", () => {
   it("increases", () => {
+    debugger;
     const result = momma(3);
-    expect(result).toBe(6);
+    expect(result).toBe(3);
   });
 });
 

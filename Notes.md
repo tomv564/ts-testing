@@ -83,3 +83,11 @@ Autocomplete shoudl be added to js syntax:
 
 To access ConsoleReporters stackFilter, need to make sure it doesn't call configureDefaultReporter in execute.
 pin to jasmine (jasmine-npm ) 2.4.1
+
+Need a good Require / import helper
+
+Set up Tslint path in global SublimeLinter settings
+paths, windows: `/Users/tvanommeren/Projects/asdf/node_modules/.bin`
+
+Install DocBlockr
+https://packagecontrol.io/packages/DocBlockr
